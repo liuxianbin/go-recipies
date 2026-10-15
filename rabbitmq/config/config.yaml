@@ -9,9 +9,9 @@ stream-port: 5552
 stream-name: stream-location
 stream-consumer-name: go-demo-stream-consumer
 # 声明 Super Stream 时创建的分区数量。
-stream-partitions: 8
+stream-partitions: 4
 # 每个 Stream 分区流的最大保留容量，单位为 GB。
 stream-max-length-gb: 2
 # RabbitMQ Stream 专用账号，与上面的 AMQP 连接凭证分开配置。
-stream-username: guest
-stream-password: guest
+stream-username: admin
+stream-password: admin123456
